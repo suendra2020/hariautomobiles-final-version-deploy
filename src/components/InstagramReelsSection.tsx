@@ -5,7 +5,11 @@
 
 import React, { useState, useRef } from "react";
 import { Play, Volume2, VolumeX, Eye, Heart, MessageCircle, Instagram, Share2, Sparkles, CheckCircle } from "lucide-react";
-
+import harivideo from "../assets/images/hari.mp4";
+import insta1 from "../assets/images/insta1.mp4";
+import insta2 from "../assets/images/insta2.mp4";
+import insta3 from "../assets/images/insta3.mp4";
+import insta4 from "../assets/images/insta4.mp4";
 interface ReelItem {
   id: string;
   title: string;
@@ -22,9 +26,9 @@ interface ReelItem {
 const REELS_DATA: ReelItem[] = [
   {
     id: "reel1",
-    title: "Jeep Compass Multijet Diagnostic & Calibration",
+    title: "Let us help you fix your rodent problems",
     description: "Clearing FCA particulate filter error codes with advanced dealer-level OBD scan tool.",
-    videoUrl: "https://player.vimeo.com/external/434045526.sd.mp4?s=c27db2af65c6970726dcfacf9414abdf03de74fe&profile_id=165&oauth2_token_id=57447761",
+    videoUrl: insta1,
     coverImage: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=500&auto=format&fit=crop&q=80",
     views: "18.4K",
     likes: "2,420",
@@ -34,27 +38,27 @@ const REELS_DATA: ReelItem[] = [
   },
   {
     id: "reel2",
-    title: "Fiat Linea Under-Chassis Overhaul",
+    title: "Electrical Problem for Fiat  Relay",
     description: "Inspecting and replacing front lower arms, bushes, and connecting pins on a premium sedan.",
-    videoUrl: "https://player.vimeo.com/external/482705609.sd.mp4?s=d009cca3e660e57dfc26d2524f2b1d6c8b959828&profile_id=165&oauth2_token_id=57447761",
+    videoUrl: insta4,
     coverImage: "https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?w=500&auto=format&fit=crop&q=80",
     views: "12.9K",
     likes: "1,180",
     commentsNum: "45",
     category: "Suspension",
-    caption: "Linea Multijet suspension rattle? Gone! Installed brand-new OEM heavy duty link rods and lower arms. Perfect tracking on Hennur Road potholes now. 🛣️🇮🇹 #FiatPuntoBytes"
+    caption: "Electrical problems 🛣️🇮🇹 #FiatPuntoBytes"
   },
   {
     id: "reel3",
-    title: "Precision Engine Timing Assembly & Tuning",
+    title: "Jeep Washing",
     description: "A close-up of our senior mechanic adjusting head clearances and spark sync on multi-valve layouts.",
-    videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3cbb8d47fe91ee9eb26b4cf88b56f9160&profile_id=139&oauth2_token_id=57447761",
+    videoUrl: insta3,
     coverImage: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&auto=format&fit=crop&q=80",
     views: "25.1K",
     likes: "3,890",
     commentsNum: "192",
     category: "Fiat Specialist",
-    caption: "Cylinder head tightening. 0.02mm precision levels using torque wrenches. No quick shortcuts. Overhaul done to last another 100,000 km! 💪🔧 #HariAutomobilesSpecialist"
+    caption: "Washing"
   }
 ];
 
@@ -105,7 +109,7 @@ export default function InstagramReelsSection() {
         </div>
         <div className="mt-4 md:mt-0">
           <a
-            href="https://www.instagram.com/hari_automobiles_blr/"
+            href="https://www.instagram.com/hari_automobiles_/"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-pink-600 to-indigo-600 hover:from-pink-500 hover:to-indigo-500 text-white font-extrabold px-4 py-2.5 text-xs transition-all shadow-md active:scale-95"
@@ -264,22 +268,7 @@ export default function InstagramReelsSection() {
                 </div>
 
                 {/* Simulated live community review comments targeting Fiat/Jeep */}
-                <div className="space-y-3.5 pt-2">
-                  <span className="text-[10px] font-mono text-slate-500 uppercase tracking-widest block font-bold border-b border-slate-950 pb-1.5">
-                    Live Comments ({activeReel.commentsNum})
-                  </span>
-                  
-                  <div className="space-y-2.5 text-xs max-h-48 overflow-y-auto pr-1">
-                    <div className="bg-slate-950/40 p-2 rounded-lg">
-                      <span className="font-extrabold text-slate-300">karthik_p_blr : </span>
-                      <span className="text-slate-400">Can vouch for this! They did timing belt change for my Punto. Completely resolved hard start and noise. Extremely professional. 👍</span>
-                    </div>
-                    <div className="bg-slate-950/40 p-2 rounded-lg">
-                      <span className="font-extrabold text-slate-300">jeep_life_india : </span>
-                      <span className="text-slate-400">Amazing diagnostics! Real Jeep expert mechanics. Highly recommend if you want to skip high-priced dealer quotes around Whitefield.</span>
-                    </div>
-                  </div>
-                </div>
+
               </div>
 
               {/* Quick Actions (Call / Book / Direct CTA) */}

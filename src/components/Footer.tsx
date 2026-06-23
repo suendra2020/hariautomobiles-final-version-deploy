@@ -86,7 +86,7 @@ export default function Footer({ onNavigate, onOpenBooking, isDarkMode = true }:
           {/* Social Follow Actions integrated beautifully as requested by the user */}
           <div className="mt-5 flex flex-wrap gap-2">
             <a 
-              href="https://www.instagram.com/hari_automobiles_blr/" 
+              href="https://www.instagram.com/hari_automobiles_/" 
               target="_blank" 
               rel="noreferrer"
               className="p-1.5 px-3 rounded-lg border border-slate-900 bg-slate-900/60 hover:bg-slate-900 hover:border-rose-500/30 hover:text-pink-500 transition-all duration-300 group flex items-center gap-1.5 text-[10px]"
@@ -101,7 +101,7 @@ export default function Footer({ onNavigate, onOpenBooking, isDarkMode = true }:
             </a>
             
             <a 
-              href="https://www.youtube.com/@hari_automobiles" 
+              href="https://www.youtube.com/@hariautomobiles" 
               target="_blank" 
               rel="noreferrer"
               className="p-1.5 px-3 rounded-lg border border-slate-900 bg-slate-900/60 hover:bg-slate-900 hover:border-[#e11d48]/30 hover:text-red-500 transition-all duration-300 group flex items-center gap-1.5 text-[10px]"

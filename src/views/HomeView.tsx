@@ -2497,10 +2497,10 @@ export default function HomeView({ onNavigate, onOpenBooking, onSelectService }:
               <p className="text-xs text-slate-400 leading-relaxed font-sans">
                 By offering original Mopar parts support, transparent digital estimates shared on WhatsApp, and on-site expert mechanics trained to work on high-pressure common rail diesels and modern turbo petrol engines.
               </p>
-              <div className="p-3 rounded-lg bg-slate-900 border border-slate-800 text-[11.5px] font-mono leading-relaxed text-slate-350">
+              {/* <div className="p-3 rounded-lg bg-slate-900 border border-slate-800 text-[11.5px] font-mono leading-relaxed text-slate-350">
                 <span className="text-white font-extrabold block mb-0.5">💡 Google Search Tip:</span>
                 Search for <span className="text-[#e11d48] font-bold">"best car service in bangalore"</span> or <span className="text-[#e11d48] font-bold">"fiat specialists hara automobiles"</span> to book direct slot allocations instantly.
-              </div>
+              </div> */}
             </div>
 
           </div>
