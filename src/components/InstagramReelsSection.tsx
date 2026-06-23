@@ -10,6 +10,10 @@ import insta1 from "../assets/images/insta1.mp4";
 import insta2 from "../assets/images/insta2.mp4";
 import insta3 from "../assets/images/insta3.mp4";
 import insta4 from "../assets/images/insta4.mp4";
+
+import engine1 from "../assets/images/engine1.mp4";
+import review from "../assets/images/review.mp4";
+import engine2 from "../assets/images/engine2.mp4";
 interface ReelItem {
   id: string;
   title: string;
@@ -29,6 +33,41 @@ const REELS_DATA: ReelItem[] = [
     title: "Let us help you fix your rodent problems",
     description: "Clearing FCA particulate filter error codes with advanced dealer-level OBD scan tool.",
     videoUrl: insta1,
+    coverImage: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=500&auto=format&fit=crop&q=80",
+    views: "18.4K",
+    likes: "2,420",
+    commentsNum: "84",
+    category: "OBD Scan",
+    caption: "rodent problems"
+  },
+  {
+    id: "reel2",
+    title: "Review customer",
+    description: "customer satisfaction thanks for the review",
+    videoUrl: review,
+    coverImage: "https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?w=500&auto=format&fit=crop&q=80",
+    views: "12.9K",
+    likes: "1,180",
+    commentsNum: "45",
+    category: "Review",
+    caption: "Electrical problems 🛣️🇮🇹 #FiatPuntoBytes"
+  },
+  {
+    id: "reel3",
+    title: "Engine Overhaul",
+    description: "A close-up of our senior mechanic adjusting head clearances and spark sync on multi-valve layouts.",
+    videoUrl: engine1,
+    coverImage: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&auto=format&fit=crop&q=80",
+    views: "25.1K",
+    likes: "3,890",
+    commentsNum: "192",
+    category: "Fiat Specialist",
+    caption: "Washing"
+  },{
+    id: "reel1",
+    title: "fiat abarth sports",
+    description: "Clearing FCA particulate filter error codes with advanced dealer-level OBD scan tool.",
+    videoUrl: engine2,
     coverImage: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=500&auto=format&fit=crop&q=80",
     views: "18.4K",
     likes: "2,420",
