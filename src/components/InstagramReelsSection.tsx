@@ -19,7 +19,7 @@ interface ReelItem {
   views: string;
   likes: string;
   commentsNum: string;
-  category: "Jeep Service" | "Fiat Specialist" | "OBD Scan" | "Suspension";
+  category: "Jeep Service" | "Fiat Specialist" | "OBD Scan" | "one";
   caption: string;
 }
 
@@ -34,7 +34,7 @@ const REELS_DATA: ReelItem[] = [
     likes: "2,420",
     commentsNum: "84",
     category: "OBD Scan",
-    caption: "Solving random engine limp-mode on this custom Jeep Compass Trailhawk. Scanning real-time cylinder pressure offsets. Fuel economy restored to 16.5 km/l! 🛠️⚡ #JeepServiceBangalore"
+    caption: "rodent problems"
   },
   {
     id: "reel2",
