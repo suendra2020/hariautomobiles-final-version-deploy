@@ -101,7 +101,7 @@ export default function BookingModal({ isOpen, onClose, selectedServiceId }: Boo
     };
 
     // 1. Send form details using FormSubmit.co official ajax endpoint (Non-blocking background action)
-    fetch("https://formsubmit.co/ajax/vsurendra223344@gmail.com", {
+    fetch("https://formsubmit.co/ajax/hariautomobiles456@gmail.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

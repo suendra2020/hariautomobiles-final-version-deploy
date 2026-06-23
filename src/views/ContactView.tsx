@@ -51,7 +51,7 @@ export default function ContactView({ onOpenBooking }: ContactViewProps) {
     setIsSubmitting(true);
 
     try {
-      await fetch("https://formsubmit.co/ajax/vsurendra223344@gmail.com", {
+      await fetch("https://formsubmit.co/ajax/hariautomobiles456@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
