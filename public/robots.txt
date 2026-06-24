@@ -1,5 +1,5 @@
 # robots.txt for Hari Automobiles
-# https://hari-automobiles.com/
+# https://hariautomobiles.com/
 
 User-agent: *
 Allow: /
@@ -19,4 +19,4 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap Location
-Sitemap: https://hari-automobiles.com/sitemap.xml
+Sitemap: https://hariautomobiles.com/sitemap.xml

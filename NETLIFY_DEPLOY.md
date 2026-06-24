@@ -160,7 +160,7 @@ Configured in `netlify.toml`:
 1. **Add Custom Domain**
    - Go to Site settings → Domain management
    - Click "Add custom domain"
-   - Enter your domain (e.g., `hari-automobiles.com`)
+   - Enter your domain (e.g., `hariautomobiles.com`)
 
 2. **Configure DNS**
    - Update your domain registrar's DNS settings

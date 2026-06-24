@@ -33,7 +33,7 @@ A modern, responsive website for Hari Automobiles, Bangalore's premier independe
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd hari-automobiles
+   cd hariautomobiles
    ```
 
 2. **Install dependencies**
@@ -90,7 +90,7 @@ See `.env.example` for reference.
 ## Project Structure
 
 ```
-hari-automobiles/
+hariautomobiles/
 ├── src/
 │   ├── components/        # Reusable React components
 │   ├── views/            # Page views

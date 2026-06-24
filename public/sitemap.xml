@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Main Page URLs -->
   <url>
-    <loc>https://hari-automobiles.com/</loc>
+    <loc>https://hariautomobiles.com/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/about</loc>
+    <loc>https://hariautomobiles.com/about</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/services</loc>
+    <loc>https://hariautomobiles.com/services</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/testimonials</loc>
+    <loc>https://hariautomobiles.com/testimonials</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.82</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/contact</loc>
+    <loc>https://hariautomobiles.com/contact</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/seo-hub</loc>
+    <loc>https://hariautomobiles.com/seo-hub</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
@@ -40,37 +40,37 @@
 
   <!-- Hash-routed SPA Fallback mapping variations -->
   <url>
-    <loc>https://hari-automobiles.com/#/home</loc>
+    <loc>https://hariautomobiles.com/#/home</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/about</loc>
+    <loc>https://hariautomobiles.com/#/about</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/services</loc>
+    <loc>https://hariautomobiles.com/#/services</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/testimonials</loc>
+    <loc>https://hariautomobiles.com/#/testimonials</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.78</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/contact</loc>
+    <loc>https://hariautomobiles.com/#/contact</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -78,67 +78,67 @@
 
   <!-- Region-Targeting Local SEO Landing Pages (Full canonical clean paths) -->
   <url>
-    <loc>https://hari-automobiles.com/location/car-service-whitefield</loc>
+    <loc>https://hariautomobiles.com/location/car-service-whitefield</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/car-service-marathahalli</loc>
+    <loc>https://hariautomobiles.com/location/car-service-marathahalli</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/car-repair-kr-puram</loc>
+    <loc>https://hariautomobiles.com/location/car-repair-kr-puram</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/car-repair-hoskote</loc>
+    <loc>https://hariautomobiles.com/location/car-repair-hoskote</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/car-mechanic-hoodi</loc>
+    <loc>https://hariautomobiles.com/location/car-mechanic-hoodi</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/fiat-service-mahadevapura</loc>
+    <loc>https://hariautomobiles.com/location/fiat-service-mahadevapura</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/diesel-car-service-brookefield</loc>
+    <loc>https://hariautomobiles.com/location/diesel-car-service-brookefield</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/car-service-electronic-city</loc>
+    <loc>https://hariautomobiles.com/location/car-service-electronic-city</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/fiat-punto-repair-indiranagar</loc>
+    <loc>https://hariautomobiles.com/location/fiat-punto-repair-indiranagar</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/car-ac-service-hsr-layout</loc>
+    <loc>https://hariautomobiles.com/location/car-ac-service-hsr-layout</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/location/wheel-alignment-sarjapur-road</loc>
+    <loc>https://hariautomobiles.com/location/wheel-alignment-sarjapur-road</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -146,67 +146,67 @@
 
   <!-- Region-Targeting Subroutes with explicit hash parameters for SPA parsing -->
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=car-service-whitefield</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=car-service-whitefield</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=car-service-marathahalli</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=car-service-marathahalli</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=car-repair-kr-puram</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=car-repair-kr-puram</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=car-repair-hoskote</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=car-repair-hoskote</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=car-mechanic-hoodi</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=car-mechanic-hoodi</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=fiat-service-mahadevapura</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=fiat-service-mahadevapura</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=diesel-car-service-brookefield</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=diesel-car-service-brookefield</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=car-service-electronic-city</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=car-service-electronic-city</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=fiat-punto-repair-indiranagar</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=fiat-punto-repair-indiranagar</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=car-ac-service-hsr-layout</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=car-ac-service-hsr-layout</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://hari-automobiles.com/#/seo-hub?location=wheel-alignment-sarjapur-road</loc>
+    <loc>https://hariautomobiles.com/#/seo-hub?location=wheel-alignment-sarjapur-road</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
