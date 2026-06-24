@@ -465,7 +465,7 @@ export default function HomeView({ onNavigate, onOpenBooking, onSelectService }:
     const video = videoRef.current;
     if (!video) return;
 
-    const streamUrl = "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdFslMJYM.m3u8";
+const streamUrl = "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdFslMJYM.m3u8";
     let hls: Hls | null = null;
 
     if (Hls.isSupported()) {
@@ -631,34 +631,26 @@ export default function HomeView({ onNavigate, onOpenBooking, onSelectService }:
       <section id="hero-section" className="relative pt-6 pb-12 px-4 md:px-8 xl:px-12 overflow-hidden bg-slate-950">
         
         {/* Premium live video streaming background overlay & fallback image */}
-        <div className="absolute inset-0 z-0 overflow-hidden bg-slate-950">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute inset-0 h-full w-full object-cover object-center opacity-25 scale-102 transition duration-700 pointer-events-none"
-            poster={heroImage}
-          />
-          {/* Static design fallback directly behind if stream is delayed */}
-          <div className="absolute inset-0 z-[-1]">
-            <img 
-              src={heroImage} 
-              alt="Hari Automobiles Premium Workshop in Bangalore" 
-              className="h-full w-full object-cover object-center opacity-10 blur-[2px] scale-102 transition"
-              referrerPolicy="no-referrer"
-            />
-          </div>
-          {/* Subtle Reddish ambient fog & dark overlays */}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/95 to-slate-950/80" />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-transparent to-slate-950/40" />
-        </div>
-
-        {/* Decorative ambient blobs using the new Red Brand theme */}
-        <div className="absolute top-12 left-10 h-96 w-96 rounded-full bg-rose-500/10 blur-[130px] pointer-events-none" />
-        <div className="absolute bottom-10 right-10 h-96 w-96 rounded-full bg-rose-600/10 blur-[150px] pointer-events-none" />
-
+       <div className="absolute inset-0 z-0 overflow-hidden bg-slate-950">
+  <video
+    ref={videoRef}
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute inset-0 h-full w-full object-cover object-center opacity-25 scale-102 transition duration-700 pointer-events-none"
+   
+  />
+  {/* <div className="absolute inset-0 z-[-1]">
+    <img
+      src={heroImage}
+      alt="Hari Automobiles Premium Workshop in Bangalore"
+      className="h-full w-full object-cover object-center opacity-10 blur-[2px] scale-102 transition"
+    />
+  </div> */}
+  {/* <div className="absolute inset-0 bg-gradient-to-t from1-slate-950 via-slate-950/95 to-slate-950/80" />
+  <div className="absolute inset-0 bg-gradient-to-r from1-slate-950 via-transparent to-slate-950/40" /> */}
+</div>
         <div className="relative z-10 mx-auto w-full max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
