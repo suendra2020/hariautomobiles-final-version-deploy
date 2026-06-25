@@ -373,7 +373,7 @@ export const TRUSTED_PARTNERS = [
     type: "Premium Spare Partner",
     benefit: "Certified OEM Quality Spares",
     desc: "OES Certified mechanical spare parts ranging from carbon-metallic brake pads to precision piston rings, designed for direct fitment active performance.",
-    image: "/src/assets/images/value_parts_partner_1782126542459.jpg",
+    image: {values},
     warranty: "Guaranteed Fitment & OES Warranty",
     rating: "4.8 ★★★★★"
   },
@@ -383,7 +383,7 @@ export const TRUSTED_PARTNERS = [
     type: "OES Lubricants Partner",
     benefit: "Advanced Synthetic PurePlus Formula",
     desc: "Active cleansing technology protecting critical valve gears and cylinder linings. Enhances thermal performance, extends engine intervals, and improves fuel mileage up to 15%.",
-    image: "/src/assets/images/shell_oil_partner_1782126558723.jpg",
+    image: {shell},
     warranty: "Pure Synthetic Performance",
     rating: "4.9 ★★★★★"
   },
@@ -393,7 +393,7 @@ export const TRUSTED_PARTNERS = [
     type: "Ride Control Partner",
     benefit: "Elite Heavy-Duty Struts",
     desc: "Market leader in high-performance automotive shock absorbers. Exceptional dampening force, nitrogen-gas charged stability, and premium comfort over heavy Bangalore aberrations.",
-    image: "/src/assets/images/gabriel_suspension_partner_1782126575417.jpg",
+    image: {gabriel},
     warranty: "Premium Road-Control Class",
     rating: "4.8 ★★★★★"
   },
@@ -403,7 +403,7 @@ export const TRUSTED_PARTNERS = [
     type: "Interior & Filter Partner",
     benefit: "High-grade Filters & Premium Wipers",
     desc: "Expertly calibrated premium cabin air filters, dust protectors, anti-odor carbon nets, and high-visibility wiper blades for elite passenger salon protection.",
-    image: "/src/assets/images/potauto_accessories_partner_1782126591196.jpg",
+    image: {potauto},
     warranty: "All-Weather Active Safety",
     rating: "4.7 ★★★★★"
   }
@@ -1557,7 +1557,7 @@ const streamUrl = "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdF
                     {/* Right side representation */}
                     <div className="md:col-span-12 lg:col-span-5 relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-855 h-56 md:h-full min-h-[220px]">
                       <img 
-                        src="/src/assets/images/body_paint_restoration_1782130820315.jpg" 
+                        src={bodypaint} 
                         alt="Computerized Color Matching Paint Booth" 
                         className="h-full w-full object-cover object-center"
                         referrerPolicy="no-referrer"
