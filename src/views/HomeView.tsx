@@ -363,7 +363,7 @@ export const TRUSTED_PARTNERS = [
     type: "OES Battery Partner",
     benefit: "Ultra Long-Life & Maintenance Free",
     desc: "India's highest rated green automotive battery supplier with legendary durability. High cranking power engineered for severe climate fluctuations and stop-start traffic.",
-    image: "/src/assets/images/amaron_battery_partner_1782126604843.jpg",
+    image: batteries,
     warranty: "Up to 72 Months Comprehensive Warranty",
     rating: "4.9 ★★★★★"
   },
@@ -373,7 +373,7 @@ export const TRUSTED_PARTNERS = [
     type: "Premium Spare Partner",
     benefit: "Certified OEM Quality Spares",
     desc: "OES Certified mechanical spare parts ranging from carbon-metallic brake pads to precision piston rings, designed for direct fitment active performance.",
-    image: {values},
+    image: values,
     warranty: "Guaranteed Fitment & OES Warranty",
     rating: "4.8 ★★★★★"
   },
@@ -383,7 +383,7 @@ export const TRUSTED_PARTNERS = [
     type: "OES Lubricants Partner",
     benefit: "Advanced Synthetic PurePlus Formula",
     desc: "Active cleansing technology protecting critical valve gears and cylinder linings. Enhances thermal performance, extends engine intervals, and improves fuel mileage up to 15%.",
-    image: {shell},
+    image: shell,
     warranty: "Pure Synthetic Performance",
     rating: "4.9 ★★★★★"
   },
@@ -393,7 +393,7 @@ export const TRUSTED_PARTNERS = [
     type: "Ride Control Partner",
     benefit: "Elite Heavy-Duty Struts",
     desc: "Market leader in high-performance automotive shock absorbers. Exceptional dampening force, nitrogen-gas charged stability, and premium comfort over heavy Bangalore aberrations.",
-    image: {gabriel},
+    image: gabriel,
     warranty: "Premium Road-Control Class",
     rating: "4.8 ★★★★★"
   },
@@ -403,7 +403,7 @@ export const TRUSTED_PARTNERS = [
     type: "Interior & Filter Partner",
     benefit: "High-grade Filters & Premium Wipers",
     desc: "Expertly calibrated premium cabin air filters, dust protectors, anti-odor carbon nets, and high-visibility wiper blades for elite passenger salon protection.",
-    image: {potauto},
+    image: potauto,
     warranty: "All-Weather Active Safety",
     rating: "4.7 ★★★★★"
   }
