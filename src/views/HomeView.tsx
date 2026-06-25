@@ -21,9 +21,10 @@ import values from "../assets/images/value_parts_partner_1782126542459.jpg";
 import shell from "../assets/images/shell_oil_partner_1782126558723.jpg";
 
 import batteries from "../assets/images/batteries.png";
-import roads from "../assets/images/breakdown_puncture_service_1782131669996.jpg"
-import tata from "../assets/images/tata_service_division_1782130802319.jpg"
-import breaks from "../assets/images/brakes_clutch_service_1782131650398.jpg"
+import roads from "../assets/images/breakdown_puncture_service_1782131669996.jpg";
+import tata from "../assets/images/tata_service_division_1782130802319.jpg";
+import breaks from "../assets/images/brakes_clutch_service_1782131650398.jpg";
+import suspension from "../assets/images/gabriel_suspension_partner_1782126575417.jpg";
 interface HomeViewProps {
   onNavigate: (view: string) => void;
   onOpenBooking: () => void;
@@ -363,7 +364,7 @@ export const TRUSTED_PARTNERS = [
     type: "OES Battery Partner",
     benefit: "Ultra Long-Life & Maintenance Free",
     desc: "India's highest rated green automotive battery supplier with legendary durability. High cranking power engineered for severe climate fluctuations and stop-start traffic.",
-    image: "/src/assets/images/amaron_battery_partner_1782126604843.jpg",
+    image: batteries,
     warranty: "Up to 72 Months Comprehensive Warranty",
     rating: "4.9 ★★★★★"
   },
@@ -373,7 +374,7 @@ export const TRUSTED_PARTNERS = [
     type: "Premium Spare Partner",
     benefit: "Certified OEM Quality Spares",
     desc: "OES Certified mechanical spare parts ranging from carbon-metallic brake pads to precision piston rings, designed for direct fitment active performance.",
-    image: "/src/assets/images/value_parts_partner_1782126542459.jpg",
+    image: values,
     warranty: "Guaranteed Fitment & OES Warranty",
     rating: "4.8 ★★★★★"
   },
@@ -383,7 +384,7 @@ export const TRUSTED_PARTNERS = [
     type: "OES Lubricants Partner",
     benefit: "Advanced Synthetic PurePlus Formula",
     desc: "Active cleansing technology protecting critical valve gears and cylinder linings. Enhances thermal performance, extends engine intervals, and improves fuel mileage up to 15%.",
-    image: "/src/assets/images/shell_oil_partner_1782126558723.jpg",
+    image: shell,
     warranty: "Pure Synthetic Performance",
     rating: "4.9 ★★★★★"
   },
@@ -393,7 +394,7 @@ export const TRUSTED_PARTNERS = [
     type: "Ride Control Partner",
     benefit: "Elite Heavy-Duty Struts",
     desc: "Market leader in high-performance automotive shock absorbers. Exceptional dampening force, nitrogen-gas charged stability, and premium comfort over heavy Bangalore aberrations.",
-    image: "/src/assets/images/gabriel_suspension_partner_1782126575417.jpg",
+    image: suspension,
     warranty: "Premium Road-Control Class",
     rating: "4.8 ★★★★★"
   },
@@ -403,7 +404,7 @@ export const TRUSTED_PARTNERS = [
     type: "Interior & Filter Partner",
     benefit: "High-grade Filters & Premium Wipers",
     desc: "Expertly calibrated premium cabin air filters, dust protectors, anti-odor carbon nets, and high-visibility wiper blades for elite passenger salon protection.",
-    image: "/src/assets/images/potauto_accessories_partner_1782126591196.jpg",
+    image: bodypaint,
     warranty: "All-Weather Active Safety",
     rating: "4.7 ★★★★★"
   }
