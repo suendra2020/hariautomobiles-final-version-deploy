@@ -24,6 +24,8 @@ const SEO: React.FC<SEOProps> = ({ title, description, keywords, canonical }) =>
       
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Hari Automobiles" />
+      <meta name="robots" content="index,follow" />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={siteTitle} />
       <meta property="og:description" content={siteDescription} />
