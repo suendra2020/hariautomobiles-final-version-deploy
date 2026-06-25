@@ -21,7 +21,9 @@ import values from "../assets/images/value_parts_partner_1782126542459.jpg";
 import shell from "../assets/images/shell_oil_partner_1782126558723.jpg";
 
 import batteries from "../assets/images/batteries.png";
-
+import roads from "../assets/images/breakdown_puncture_service_1782131669996.jpg"
+import tata from "../assets/images/tata_service_division_1782130802319.jpg"
+import breaks from "../assets/images/brakes_clutch_service_1782131650398.jpg"
 interface HomeViewProps {
   onNavigate: (view: string) => void;
   onOpenBooking: () => void;
@@ -1186,7 +1188,7 @@ const streamUrl = "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdF
                     {/* Right side visual representation */}
                     <div className="md:col-span-5 relative rounded-2xl overflow-hidden bg-[#e11d48]/5 border border-slate-900 h-56 md:h-full min-h-[220px]">
                       <img 
-                        src="/src/assets/images/tata_service_division_1782130802319.jpg" 
+                        src={tata} 
                         alt="Tata Service Division at Hari Automobiles" 
                         className="h-full w-full object-cover object-center"
                         referrerPolicy="no-referrer"
@@ -1287,7 +1289,7 @@ const streamUrl = "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdF
                     {/* Right side representation */}
                     <div className="md:col-span-12 lg:col-span-5 relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-900 h-56 md:h-full min-h-[220px]">
                       <img 
-                        src="/src/assets/images/brakes_clutch_service_1782131650398.jpg" 
+                        src={breaks} 
                         alt="High performance brake pad and disk calipers" 
                         className="h-full w-full object-cover object-center"
                         referrerPolicy="no-referrer"
@@ -1392,7 +1394,7 @@ const streamUrl = "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdF
                     {/* Right side representation */}
                     <div className="md:col-span-12 lg:col-span-5 relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-900 h-56 md:h-full min-h-[220px]">
                       <img 
-                        src="/src/assets/images/breakdown_puncture_service_1782131669996.jpg" 
+                        src={roads} 
                         alt="Roadside emergency mechanic servicing" 
                         className="h-full w-full object-cover object-center"
                         referrerPolicy="no-referrer"
